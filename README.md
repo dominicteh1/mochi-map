@@ -27,11 +27,9 @@ Mochi Map is an AI-powered travel planner that generates a budget-aware itinerar
 ## Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/dominicteh1/mochi-map.git
+cd mochi-map
 ```
-
-Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your real GitHub repo path.
 
 ---
 
@@ -75,7 +73,7 @@ Then open `backend/.env` and set it like this:
 ```env
 PORT=3001
 GEMINI_API_KEY=your_real_gemini_api_key_here
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-2.5-flash-lite
 FRONTEND_ORIGIN=http://localhost:5173
 ```
 
@@ -196,7 +194,7 @@ Make sure `backend/.env` exists and contains your real API key.
 If an older Gemini model fails, update `GEMINI_MODEL` in `backend/.env` to:
 
 ```env
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-2.5-flash-lite
 ```
 
 ### Frontend image/logo not showing
@@ -220,8 +218,3 @@ npm install html2pdf.js
 
 No login is required.
 
----
-
-## License
-
-Add your preferred license here.

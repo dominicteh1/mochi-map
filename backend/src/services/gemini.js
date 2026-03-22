@@ -7,7 +7,7 @@ const DEFAULT_MODEL =
 
 const FALLBACK_MODELS = (
   process.env.GEMINI_FALLBACK_MODELS ||
-  "gemini-3-flash-preview,gemini-2.5-flash-lite"
+  "gemini-3-flash-preview,gemini-2.5-flash-lite,gemini-2.5-flash"
 )
   .split(",")
   .map((model) => model.trim())
